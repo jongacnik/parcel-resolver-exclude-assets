@@ -1,0 +1,19 @@
+{
+  "name": "parcel-resolver-exclude-assets",
+  "description": "Excludes paths starting with `/assets`",
+  "main": "index.js",
+  "version": "1.0.0",
+  "engines": {
+    "parcel": "^2 || ^2.0.0-alpha.0 || ^2.0.0-nightly.0"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.3"
+  },
+  "keywords": [
+    "parcel",
+    "plugin",
+    "resolver"
+  ],
+  "author": "Jon Gacnik",
+  "license": "MIT"
+}
