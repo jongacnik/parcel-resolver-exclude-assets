@@ -26,6 +26,16 @@ yarn add parcel-resolver-exclude-assets --dev
 }
 ```
 
-## Ideas
+## Config
 
-- [ ] Option to config `/assets` path
+You can specify custom paths in your `package.json`
+
+```json
+{
+  "resolverExcludeAssets": [
+    "assets",
+    "images",
+    "fonts"
+  ]
+}
+```
