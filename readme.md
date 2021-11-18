@@ -1,10 +1,10 @@
 # parcel-resolver-exclude-assets
 
-Tells [parcel](https://github.com/parcel-bundler/parcel) to skip paths starting with `/assets`. This is useful when you want to process css/js but leave assets (especially ones included in css) alone.
+Tells [parcel](https://github.com/parcel-bundler/parcel) to skip paths starting with `assets`. This is useful when you want to process css/js but leave assets (especially ones included in css) alone.
 
 ```css
 body {
-  background-image: url('/assets/background.jpg'); /* parcel will now skip resolving this asset */
+  background-image: url('assets/background.jpg'); /* parcel will now skip resolving this asset */
 }
 ```
 
